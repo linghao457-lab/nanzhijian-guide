@@ -1,66 +1,48 @@
 #!/usr/bin/env python3
-"""Build a frozen public tutorial snapshot, without any app/customer data."""
-import concurrent.futures
+"""Deploy only the frozen, public static tutorial archive; no app/customer access."""
 import hashlib
+import io
 import json
 from pathlib import Path, PurePosixPath
-import time
 import urllib.request
+import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / "mirror-manifest.json").read_text(encoding="utf-8"))
-OUT = ROOT / "site"
-if OUT.exists() and any(OUT.iterdir()):
-    raise SystemExit("Refusing to overwrite populated output")
-OUT.mkdir(exist_ok=True)
-
-def digest(data):
-    return hashlib.sha256(data).hexdigest()
-
-def materialize(entry):
-    rel = PurePosixPath(entry["path"])
-    if rel.is_absolute() or ".." in rel.parts or "\\" in entry["path"]:
-        raise ValueError("Unsafe output path")
-    if "content" in entry:
-        data = entry["content"].encode("utf-8")
-    else:
-        url = entry["url"]
-        if not any(url.startswith(host + "/") for host in manifest["allowed_source_origins"]):
-            raise ValueError("Unexpected source origin")
-        failure = None
-        for attempt in range(3):
-            try:
-                with urllib.request.urlopen(url, timeout=40) as response:
-                    if response.status != 200:
-                        raise ValueError("Non-200 source response")
-                    data = response.read(10 * 1024 * 1024 + 1)
-                if len(data) > 10 * 1024 * 1024 or digest(data) != entry["source_sha256"]:
-                    raise ValueError("Source hash mismatch: " + str(rel))
-                failure = None
-                break
-            except Exception as exc:
-                failure = exc
-                if attempt < 2:
-                    time.sleep(1 + attempt)
-        if failure:
-            raise failure
-        if entry.get("replace"):
-            text = data.decode("utf-8")
-            for old, new in entry["replace"]:
-                if old not in text:
-                    raise ValueError("Expected link missing: " + str(rel))
-                text = text.replace(old, new)
-            data = text.encode("utf-8")
-    if digest(data) != entry["sha256"] or len(data) != entry["bytes"]:
-        raise ValueError("Final hash/size mismatch: " + str(rel))
-    target = OUT.joinpath(*rel.parts)
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_bytes(data)
-    return len(data)
-
+package = manifest["archive"]
+if not package["url"].startswith("https://github.com/linghao457-lab/nanzhijian-guide/releases/download/"):
+    raise SystemExit("Unexpected archive origin")
+with urllib.request.urlopen(package["url"], timeout=120) as response:
+    if response.status != 200:
+        raise SystemExit("Archive unavailable")
+    raw = response.read(60 * 1024 * 1024 + 1)
+if len(raw) != package["bytes"] or hashlib.sha256(raw).hexdigest() != package["sha256"]:
+    raise SystemExit("Archive hash or size mismatch")
 entries = manifest["files"]
-if len(entries) != len({entry["path"] for entry in entries}):
+expected = {entry["path"]: entry for entry in entries}
+if len(entries) != len(expected):
     raise SystemExit("Duplicate manifest path")
-with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-    sizes = list(pool.map(materialize, entries))
-print("Verified %d public static files (%d bytes)." % (len(sizes), sum(sizes)))
+out = ROOT / "site"
+if out.exists() and any(out.iterdir()):
+    raise SystemExit("Refusing to overwrite populated output")
+with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+    names = archive.namelist()
+    if len(names) != len(set(names)) or set(names) != set(expected):
+        raise SystemExit("Archive contents differ from manifest")
+    total = 0
+    for name in names:
+        rel = PurePosixPath(name)
+        if rel.is_absolute() or ".." in rel.parts or "\\" in name:
+            raise SystemExit("Unsafe path")
+        info = archive.getinfo(name)
+        if info.is_dir() or info.file_size > 10 * 1024 * 1024:
+            raise SystemExit("Unexpected entry")
+        data = archive.read(name)
+        entry = expected[name]
+        if len(data) != entry["bytes"] or hashlib.sha256(data).hexdigest() != entry["sha256"]:
+            raise SystemExit("Static file hash/size mismatch: " + name)
+        target = out.joinpath(*rel.parts)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
+        total += len(data)
+print("Verified %d public static files (%d bytes)." % (len(entries), total))

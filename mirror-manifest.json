@@ -1617,5 +1617,10 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0
     }
-  ]
+  ],
+  "archive": {
+    "url": "https://github.com/linghao457-lab/nanzhijian-guide/releases/download/v1.4-20261030/nanzhijian-guide-static-1.4.zip",
+    "sha256": "37de9ccac1e3a4a574d564e0683e1879631626a7083b04dc1dea68e56315476e",
+    "bytes": 43623614
+  }
 }
