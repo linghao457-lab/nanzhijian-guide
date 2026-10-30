@@ -1,0 +1,36 @@
+name: Publish Nanzhijian guide
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - mirror-manifest.json
+      - tools/materialize-guide.py
+      - .github/workflows/publish-guide.yml
+permissions:
+  contents: read
+concurrency:
+  group: tutorial-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Fetch and verify frozen public tutorial
+        run: python3 tools/materialize-guide.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+          retention-days: 1
+      - uses: actions/deploy-pages@v4
+        id: deployment

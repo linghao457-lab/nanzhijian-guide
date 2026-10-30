@@ -1,0 +1,1621 @@
+{
+  "format_version": 1,
+  "title": "南枝笺使用教程1.4免费版",
+  "prepared_at": "2026-10-30T18:17:40.838800+08:00",
+  "public_url": "https://linghao457-lab.github.io/nanzhijian-guide/",
+  "guide_source_commit": "029c20793a4fc2f090a49f79383e3d37f8ef8c51",
+  "support_source_commit": "2f92e1a8013bb44bec0773033022ecefd34e7058",
+  "allowed_source_origins": [
+    "https://nanzhijian-guide-2026.linghao457.chatgpt.site",
+    "https://nanzhijian-support-2026.linghao457.chatgpt.site"
+  ],
+  "files": [
+    {
+      "path": "app.js",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/app.js",
+      "source_sha256": "6d088c1c0ffbf2d16f0278eb0eb8c41a475f58ffb36c8ececbc2d258f81cbeaa",
+      "sha256": "6d088c1c0ffbf2d16f0278eb0eb8c41a475f58ffb36c8ececbc2d258f81cbeaa",
+      "bytes": 31013
+    },
+    {
+      "path": "assets/app-icon.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/app-icon.png",
+      "source_sha256": "269b0c44ce8f31cdbad4248d591db951c3b71c0a4b60904e211170195dac7554",
+      "sha256": "269b0c44ce8f31cdbad4248d591db951c3b71c0a4b60904e211170195dac7554",
+      "bytes": 19215
+    },
+    {
+      "path": "assets/branch.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/branch.webp",
+      "source_sha256": "d35274ca99641ceb96719905dbc5ab64ee3fc03c063aa504b00e25ce5cd878f9",
+      "sha256": "d35274ca99641ceb96719905dbc5ab64ee3fc03c063aa504b00e25ce5cd878f9",
+      "bytes": 45946
+    },
+    {
+      "path": "assets/crops/add-block-menu.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/add-block-menu.webp",
+      "source_sha256": "1755638bcff72019340ca9ed958c6901d30c40af5ac3a37e4b575c3cf78555b5",
+      "sha256": "1755638bcff72019340ca9ed958c6901d30c40af5ac3a37e4b575c3cf78555b5",
+      "bytes": 14364
+    },
+    {
+      "path": "assets/crops/add-menu.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/add-menu.webp",
+      "source_sha256": "1755638bcff72019340ca9ed958c6901d30c40af5ac3a37e4b575c3cf78555b5",
+      "sha256": "1755638bcff72019340ca9ed958c6901d30c40af5ac3a37e4b575c3cf78555b5",
+      "bytes": 14364
+    },
+    {
+      "path": "assets/crops/add-task-menu.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/add-task-menu.webp",
+      "source_sha256": "1755638bcff72019340ca9ed958c6901d30c40af5ac3a37e4b575c3cf78555b5",
+      "sha256": "1755638bcff72019340ca9ed958c6901d30c40af5ac3a37e4b575c3cf78555b5",
+      "bytes": 14364
+    },
+    {
+      "path": "assets/crops/appearance.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/appearance.webp",
+      "source_sha256": "4af33fc9aee6751cff55e719f7a46a3dd2b32180e81ccd52d95741ce41503e69",
+      "sha256": "4af33fc9aee6751cff55e719f7a46a3dd2b32180e81ccd52d95741ce41503e69",
+      "bytes": 7464
+    },
+    {
+      "path": "assets/crops/append-button.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/append-button.webp",
+      "source_sha256": "648122baf3a9d736757754e3d1ec54b74ee8d4bead742b429de77796b5316126",
+      "sha256": "648122baf3a9d736757754e3d1ec54b74ee8d4bead742b429de77796b5316126",
+      "bytes": 18424
+    },
+    {
+      "path": "assets/crops/append-customer.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/append-customer.webp",
+      "source_sha256": "ef5b84a25877341251b5ed1cb341fe9f314e8de0a5920ae2b6b3c511f63e0067",
+      "sha256": "ef5b84a25877341251b5ed1cb341fe9f314e8de0a5920ae2b6b3c511f63e0067",
+      "bytes": 21448
+    },
+    {
+      "path": "assets/crops/append-destination.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/append-destination.webp",
+      "source_sha256": "481f0d9dd3a88e3e30c1e61f39d707f6f7566a91d359a7f54e6ff1efd319b207",
+      "sha256": "481f0d9dd3a88e3e30c1e61f39d707f6f7566a91d359a7f54e6ff1efd319b207",
+      "bytes": 57896
+    },
+    {
+      "path": "assets/crops/appointment-status.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/appointment-status.webp",
+      "source_sha256": "b7f4ce8b99affdaf9c31f116eb13ee9337638665dc260f1663821e1698807d2d",
+      "sha256": "b7f4ce8b99affdaf9c31f116eb13ee9337638665dc260f1663821e1698807d2d",
+      "bytes": 9986
+    },
+    {
+      "path": "assets/crops/block-all-day.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/block-all-day.webp",
+      "source_sha256": "d3a49b3516d8e26e695f7acf414f0b8a5aaece4f2a171acbf73f06aebfab686b",
+      "sha256": "d3a49b3516d8e26e695f7acf414f0b8a5aaece4f2a171acbf73f06aebfab686b",
+      "bytes": 3692
+    },
+    {
+      "path": "assets/crops/block-dates.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/block-dates.webp",
+      "source_sha256": "306449af68da92bf422eb2db684f95ac24414c6f32b44ddd47569dff1e8ef774",
+      "sha256": "306449af68da92bf422eb2db684f95ac24414c6f32b44ddd47569dff1e8ef774",
+      "bytes": 19704
+    },
+    {
+      "path": "assets/crops/block-save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/block-save.webp",
+      "source_sha256": "a4d304d6ad55a5b56f7a02618cf85f3828bc4c48239ae11aa2a2ea0db74bd15f",
+      "sha256": "a4d304d6ad55a5b56f7a02618cf85f3828bc4c48239ae11aa2a2ea0db74bd15f",
+      "bytes": 10452
+    },
+    {
+      "path": "assets/crops/block-title.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/block-title.webp",
+      "source_sha256": "74f9182ec4414cf53ee05615c64956d8b2a1eb0bb010b454200d4ee430aee48b",
+      "sha256": "74f9182ec4414cf53ee05615c64956d8b2a1eb0bb010b454200d4ee430aee48b",
+      "bytes": 2884
+    },
+    {
+      "path": "assets/crops/calendar-grid.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/calendar-grid.webp",
+      "source_sha256": "0f4b2afa4b7d8367723fc94dbd1d3b0b506ae4130ee32f242a72bbf042672a74",
+      "sha256": "0f4b2afa4b7d8367723fc94dbd1d3b0b506ae4130ee32f242a72bbf042672a74",
+      "bytes": 40642
+    },
+    {
+      "path": "assets/crops/calendar-options.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/calendar-options.webp",
+      "source_sha256": "68efd7a5c61f2632875314904e9cd2af3de618eee4c8f33c0d07fbfee098cb1b",
+      "sha256": "68efd7a5c61f2632875314904e9cd2af3de618eee4c8f33c0d07fbfee098cb1b",
+      "bytes": 26328
+    },
+    {
+      "path": "assets/crops/calendar-overview.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/calendar-overview.webp",
+      "source_sha256": "a9164e9613f5ef6953af3de3ab63244cd4de3db735f87d592dc97163e3bd3ef8",
+      "sha256": "a9164e9613f5ef6953af3de3ab63244cd4de3db735f87d592dc97163e3bd3ef8",
+      "bytes": 17674
+    },
+    {
+      "path": "assets/crops/calendar-system.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/calendar-system.webp",
+      "source_sha256": "f57a9926540418006051b16ca94c169e8ba3328b4f0fdb616a97c86ba4252060",
+      "sha256": "f57a9926540418006051b16ca94c169e8ba3328b4f0fdb616a97c86ba4252060",
+      "bytes": 9434
+    },
+    {
+      "path": "assets/crops/calendar-title.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/calendar-title.webp",
+      "source_sha256": "acd504d387a8874300356a076666c4181cf2fd94448bc5127a08cd44e41fb317",
+      "sha256": "acd504d387a8874300356a076666c4181cf2fd94448bc5127a08cd44e41fb317",
+      "bytes": 12602
+    },
+    {
+      "path": "assets/crops/cancel-confirm.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/cancel-confirm.webp",
+      "source_sha256": "7018b043420643032eb9904bf43931c25c5ab5fbf2933801f56c99f13a0e3f66",
+      "sha256": "7018b043420643032eb9904bf43931c25c5ab5fbf2933801f56c99f13a0e3f66",
+      "bytes": 13092
+    },
+    {
+      "path": "assets/crops/cancel-history.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/cancel-history.webp",
+      "source_sha256": "f597f56928d5ed2cc6dbdb827042fdce6b20fb52488824e8b42d387c46420e75",
+      "sha256": "f597f56928d5ed2cc6dbdb827042fdce6b20fb52488824e8b42d387c46420e75",
+      "bytes": 37728
+    },
+    {
+      "path": "assets/crops/cancel-reason.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/cancel-reason.webp",
+      "source_sha256": "46a46613f83bc7e3e3e18b7316a8d8d05c383eba7c460e115ac457d07116e9a3",
+      "sha256": "46a46613f83bc7e3e3e18b7316a8d8d05c383eba7c460e115ac457d07116e9a3",
+      "bytes": 14140
+    },
+    {
+      "path": "assets/crops/cancel-selection.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/cancel-selection.webp",
+      "source_sha256": "29e3f80657f4aeab97987b478d53637d36baaeff45194932144012438bf94cb9",
+      "sha256": "29e3f80657f4aeab97987b478d53637d36baaeff45194932144012438bf94cb9",
+      "bytes": 20068
+    },
+    {
+      "path": "assets/crops/capture-alarm-identify.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-alarm-identify.webp",
+      "source_sha256": "94c52f0b397a0a9e886bd1e9aea2fdb3c115ee988a5f97ff841890ba8d78bbd2",
+      "sha256": "94c52f0b397a0a9e886bd1e9aea2fdb3c115ee988a5f97ff841890ba8d78bbd2",
+      "bytes": 25090
+    },
+    {
+      "path": "assets/crops/capture-alarm-location.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-alarm-location.webp",
+      "source_sha256": "d7a3244437e9da93e84d0cde0f812570cf520e3c0e6b9b9923909e29b458852c",
+      "sha256": "d7a3244437e9da93e84d0cde0f812570cf520e3c0e6b9b9923909e29b458852c",
+      "bytes": 149754
+    },
+    {
+      "path": "assets/crops/capture-alarm-pause.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-alarm-pause.webp",
+      "source_sha256": "50c556d8c1605d95a842360206410b6c169525a570b549aa8c927ff99611cc7d",
+      "sha256": "50c556d8c1605d95a842360206410b6c169525a570b549aa8c927ff99611cc7d",
+      "bytes": 18944
+    },
+    {
+      "path": "assets/crops/capture-alarm-resume.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-alarm-resume.webp",
+      "source_sha256": "8de65ce16667906031d93b1617c36bd216a0ea3d4f4d57bef8832930a2e558fa",
+      "sha256": "8de65ce16667906031d93b1617c36bd216a0ea3d4f4d57bef8832930a2e558fa",
+      "bytes": 22372
+    },
+    {
+      "path": "assets/crops/capture-alarm-snooze.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-alarm-snooze.webp",
+      "source_sha256": "94c52f0b397a0a9e886bd1e9aea2fdb3c115ee988a5f97ff841890ba8d78bbd2",
+      "sha256": "94c52f0b397a0a9e886bd1e9aea2fdb3c115ee988a5f97ff841890ba8d78bbd2",
+      "bytes": 25090
+    },
+    {
+      "path": "assets/crops/capture-alarm-stop.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-alarm-stop.webp",
+      "source_sha256": "50c556d8c1605d95a842360206410b6c169525a570b549aa8c927ff99611cc7d",
+      "sha256": "50c556d8c1605d95a842360206410b6c169525a570b549aa8c927ff99611cc7d",
+      "bytes": 18944
+    },
+    {
+      "path": "assets/crops/capture-append-end-time.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-append-end-time.webp",
+      "source_sha256": "ba914b96b88fa22b3eb895b70d2e049237cd70b9661b61dd969a8b8105044b8b",
+      "sha256": "ba914b96b88fa22b3eb895b70d2e049237cd70b9661b61dd969a8b8105044b8b",
+      "bytes": 14482
+    },
+    {
+      "path": "assets/crops/capture-append-start-time.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-append-start-time.webp",
+      "source_sha256": "ac1094d6389f9a25429e3a98556ff32c29946995f9e52829bda21b228ccf3734",
+      "sha256": "ac1094d6389f9a25429e3a98556ff32c29946995f9e52829bda21b228ccf3734",
+      "bytes": 28556
+    },
+    {
+      "path": "assets/crops/capture-append-time-enable.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-append-time-enable.webp",
+      "source_sha256": "50b09e1ee6e647094b8bde766ac6215cbd38fe1cea1d5711ec9776e9ce329b2c",
+      "sha256": "50b09e1ee6e647094b8bde766ac6215cbd38fe1cea1d5711ec9776e9ce329b2c",
+      "bytes": 34546
+    },
+    {
+      "path": "assets/crops/capture-blocked-remove.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-blocked-remove.webp",
+      "source_sha256": "c792be2ed7e61908881456e07e815f45cdc105244be1cd21d86ef01184aebd79",
+      "sha256": "c792be2ed7e61908881456e07e815f45cdc105244be1cd21d86ef01184aebd79",
+      "bytes": 37944
+    },
+    {
+      "path": "assets/crops/capture-calendar-add.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-calendar-add.webp",
+      "source_sha256": "c1d7de8f32ce46f42e5fcca27d0b358b70e29159dfb4d01a4a8d5576cb730ded",
+      "sha256": "c1d7de8f32ce46f42e5fcca27d0b358b70e29159dfb4d01a4a8d5576cb730ded",
+      "bytes": 26674
+    },
+    {
+      "path": "assets/crops/capture-calendar-cancel.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-calendar-cancel.webp",
+      "source_sha256": "c1d7de8f32ce46f42e5fcca27d0b358b70e29159dfb4d01a4a8d5576cb730ded",
+      "sha256": "c1d7de8f32ce46f42e5fcca27d0b358b70e29159dfb4d01a4a8d5576cb730ded",
+      "bytes": 26674
+    },
+    {
+      "path": "assets/crops/capture-calendar-check.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-calendar-check.webp",
+      "source_sha256": "5ec724483a0c07c5c1476496bc6ec22d714d321264ab4738760399620fd57963",
+      "sha256": "5ec724483a0c07c5c1476496bc6ec22d714d321264ab4738760399620fd57963",
+      "bytes": 40074
+    },
+    {
+      "path": "assets/crops/capture-calendar-duplicate.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-calendar-duplicate.webp",
+      "source_sha256": "c7f4aebbab1e4b85b95984d7c7add5576c2f6d6b4368cc4bf89d47b5ffad10df",
+      "sha256": "c7f4aebbab1e4b85b95984d7c7add5576c2f6d6b4368cc4bf89d47b5ffad10df",
+      "bytes": 52560
+    },
+    {
+      "path": "assets/crops/capture-cancel-execute.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-cancel-execute.webp",
+      "source_sha256": "c6734507b2017d538ac260dbdcc5e966f4a7d639fd23efe41e467f2727f04ecb",
+      "sha256": "c6734507b2017d538ac260dbdcc5e966f4a7d639fd23efe41e467f2727f04ecb",
+      "bytes": 37130
+    },
+    {
+      "path": "assets/crops/capture-cancel-find.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-cancel-find.webp",
+      "source_sha256": "b96d72e846ae96fbdc6f39e370e59e8f68b2c8324ca3980ea255acf6d7cca587",
+      "sha256": "b96d72e846ae96fbdc6f39e370e59e8f68b2c8324ca3980ea255acf6d7cca587",
+      "bytes": 75596
+    },
+    {
+      "path": "assets/crops/capture-cancel-followup.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-cancel-followup.webp",
+      "source_sha256": "6d396062f641495ec11a44b4f59f607f5a038483874b2f4982f5e39b4f4cdf72",
+      "sha256": "6d396062f641495ec11a44b4f59f607f5a038483874b2f4982f5e39b4f4cdf72",
+      "bytes": 29230
+    },
+    {
+      "path": "assets/crops/capture-cancel-order.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-cancel-order.webp",
+      "source_sha256": "07b6f765ddc9aca1fbeeb55bdc71840d4bcf7df4403ed685028b4c605b8de50b",
+      "sha256": "07b6f765ddc9aca1fbeeb55bdc71840d4bcf7df4403ed685028b4c605b8de50b",
+      "bytes": 34592
+    },
+    {
+      "path": "assets/crops/capture-cancel-restore.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-cancel-restore.webp",
+      "source_sha256": "9a5337f87bef849afcc79d4f30b3bb3ee0430d3507c90ab22ece577b9c1f45ed",
+      "sha256": "9a5337f87bef849afcc79d4f30b3bb3ee0430d3507c90ab22ece577b9c1f45ed",
+      "bytes": 26740
+    },
+    {
+      "path": "assets/crops/capture-customer-edit.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-customer-edit.webp",
+      "source_sha256": "ae50bd35fa8c1f63f7c4984f8b041312ca938e3dd604014df4697563f95610ed",
+      "sha256": "ae50bd35fa8c1f63f7c4984f8b041312ca938e3dd604014df4697563f95610ed",
+      "bytes": 27178
+    },
+    {
+      "path": "assets/crops/capture-customer-find.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-customer-find.webp",
+      "source_sha256": "981137ef6930fd78736fe7581dc048a6140cfb82d08a1ceb883611538ede5424",
+      "sha256": "981137ef6930fd78736fe7581dc048a6140cfb82d08a1ceb883611538ede5424",
+      "bytes": 30600
+    },
+    {
+      "path": "assets/crops/capture-customer-new.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-customer-new.webp",
+      "source_sha256": "3c7ae266504ea9f3984813fe323b78b1aa2de3d0de5df3cd3457737eb03da080",
+      "sha256": "3c7ae266504ea9f3984813fe323b78b1aa2de3d0de5df3cd3457737eb03da080",
+      "bytes": 11102
+    },
+    {
+      "path": "assets/crops/capture-customer-save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-customer-save.webp",
+      "source_sha256": "95ec8387cb16e60b6cdf79767fd40c21d0bd627730d54c73b6b96504b10ce56e",
+      "sha256": "95ec8387cb16e60b6cdf79767fd40c21d0bd627730d54c73b6b96504b10ce56e",
+      "bytes": 34694
+    },
+    {
+      "path": "assets/crops/capture-daily-customer-order.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-daily-customer-order.webp",
+      "source_sha256": "841d70767867504d0217db872bdd2ae34765ba7372213bafc1dd7cbc71d7cdc0",
+      "sha256": "841d70767867504d0217db872bdd2ae34765ba7372213bafc1dd7cbc71d7cdc0",
+      "bytes": 11130
+    },
+    {
+      "path": "assets/crops/capture-daily-filter.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-daily-filter.webp",
+      "source_sha256": "94d1738aa290bbc1df191a1bb26815a9546d0d06be2def2244c4d2b818945efb",
+      "sha256": "94d1738aa290bbc1df191a1bb26815a9546d0d06be2def2244c4d2b818945efb",
+      "bytes": 15092
+    },
+    {
+      "path": "assets/crops/capture-daily-month-confirm.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-daily-month-confirm.webp",
+      "source_sha256": "79e7f887a7d60615851d60ee269817c15628e219776e901dd8d6c826bc7ad76a",
+      "sha256": "79e7f887a7d60615851d60ee269817c15628e219776e901dd8d6c826bc7ad76a",
+      "bytes": 6218
+    },
+    {
+      "path": "assets/crops/capture-daily-month.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-daily-month.webp",
+      "source_sha256": "09aac763877b33ab345cd451d534ea0984682eedcf916ebf4b29543ebfb52e56",
+      "sha256": "09aac763877b33ab345cd451d534ea0984682eedcf916ebf4b29543ebfb52e56",
+      "bytes": 37002
+    },
+    {
+      "path": "assets/crops/capture-export-check.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-export-check.webp",
+      "source_sha256": "4b126b0f40550f181324450ece27dbb644d80b239529474cc3dc0c643ed2ecec",
+      "sha256": "4b126b0f40550f181324450ece27dbb644d80b239529474cc3dc0c643ed2ecec",
+      "bytes": 89894
+    },
+    {
+      "path": "assets/crops/capture-export-confirm.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-export-confirm.webp",
+      "source_sha256": "7e562d447b83a830538631cfe7af297ff7e1038e442a607182af00988c0e1f99",
+      "sha256": "7e562d447b83a830538631cfe7af297ff7e1038e442a607182af00988c0e1f99",
+      "bytes": 47090
+    },
+    {
+      "path": "assets/crops/capture-export-copy.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-export-copy.webp",
+      "source_sha256": "98ae33e42614232f4628d76fbf3356abe775b393054708e4e11d26e201d4a1a4",
+      "sha256": "98ae33e42614232f4628d76fbf3356abe775b393054708e4e11d26e201d4a1a4",
+      "bytes": 15114
+    },
+    {
+      "path": "assets/crops/capture-export-location.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-export-location.webp",
+      "source_sha256": "c6092658599feb862fb9f62eaf9f33ece9cb10eac3899124879135b334d7e513",
+      "sha256": "c6092658599feb862fb9f62eaf9f33ece9cb10eac3899124879135b334d7e513",
+      "bytes": 67242
+    },
+    {
+      "path": "assets/crops/capture-follow-date.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-follow-date.webp",
+      "source_sha256": "64132391721242bf543a46d232aa896a47828f3925db78c52c536152eb04cc0c",
+      "sha256": "64132391721242bf543a46d232aa896a47828f3925db78c52c536152eb04cc0c",
+      "bytes": 92076
+    },
+    {
+      "path": "assets/crops/capture-move-old.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-move-old.webp",
+      "source_sha256": "6bf9948879d6d87c0b589507226886568cbc84e991f8fa2a21c53e72bcbdb1ce",
+      "sha256": "6bf9948879d6d87c0b589507226886568cbc84e991f8fa2a21c53e72bcbdb1ce",
+      "bytes": 72188
+    },
+    {
+      "path": "assets/crops/capture-move-transfer.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-move-transfer.webp",
+      "source_sha256": "4b126b0f40550f181324450ece27dbb644d80b239529474cc3dc0c643ed2ecec",
+      "sha256": "4b126b0f40550f181324450ece27dbb644d80b239529474cc3dc0c643ed2ecec",
+      "bytes": 89894
+    },
+    {
+      "path": "assets/crops/capture-order.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-order.webp",
+      "source_sha256": "182ef9110e0d83b265cbbb2ab0fbd4544ca0691571f238bbba57df3f14a16237",
+      "sha256": "182ef9110e0d83b265cbbb2ab0fbd4544ca0691571f238bbba57df3f14a16237",
+      "bytes": 35238
+    },
+    {
+      "path": "assets/crops/capture-price.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-price.webp",
+      "source_sha256": "34826d2a0ebe153ce6b135e1c15552787d17f0daf602850b3430f58bb3f88053",
+      "sha256": "34826d2a0ebe153ce6b135e1c15552787d17f0daf602850b3430f58bb3f88053",
+      "bytes": 17580
+    },
+    {
+      "path": "assets/crops/capture-refund-amount.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-refund-amount.webp",
+      "source_sha256": "13ce2106dcd765cd838a873eea9fac643c0c46d362c27a0f70e7b7523dac7a6b",
+      "sha256": "13ce2106dcd765cd838a873eea9fac643c0c46d362c27a0f70e7b7523dac7a6b",
+      "bytes": 27978
+    },
+    {
+      "path": "assets/crops/capture-refund-date.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-refund-date.webp",
+      "source_sha256": "71af1a7261d8f9f5032d51f2fd42326a654e6df26199a186874345374719b87c",
+      "sha256": "71af1a7261d8f9f5032d51f2fd42326a654e6df26199a186874345374719b87c",
+      "bytes": 34238
+    },
+    {
+      "path": "assets/crops/capture-repeat-browse.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-repeat-browse.webp",
+      "source_sha256": "71bd47b76f326bb9b2f46f7a7abaa966bd988ea7f0141724372cd4de56621dc4",
+      "sha256": "71bd47b76f326bb9b2f46f7a7abaa966bd988ea7f0141724372cd4de56621dc4",
+      "bytes": 16840
+    },
+    {
+      "path": "assets/crops/capture-repeat-cancel.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-repeat-cancel.webp",
+      "source_sha256": "6ec392ff216d20fc60fadca6a1fe9f1978f2ff05d5e82874ca347404c745aa94",
+      "sha256": "6ec392ff216d20fc60fadca6a1fe9f1978f2ff05d5e82874ca347404c745aa94",
+      "bytes": 35494
+    },
+    {
+      "path": "assets/crops/capture-repeat-complete.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-repeat-complete.webp",
+      "source_sha256": "dcc4de737a39e1e674093a4b7230028d99228aa10c3043b463c752633a3ed7da",
+      "sha256": "dcc4de737a39e1e674093a4b7230028d99228aa10c3043b463c752633a3ed7da",
+      "bytes": 12688
+    },
+    {
+      "path": "assets/crops/capture-repeat-edit.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-repeat-edit.webp",
+      "source_sha256": "7de9340c0b316f223f1eb46ed0ea7a9c05eb646a306edf54a862f8819c8b87e1",
+      "sha256": "7de9340c0b316f223f1eb46ed0ea7a9c05eb646a306edf54a862f8819c8b87e1",
+      "bytes": 15446
+    },
+    {
+      "path": "assets/crops/capture-repeat-find.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-repeat-find.webp",
+      "source_sha256": "daa6c142d4c7ee2d5c0a566cb68d61bd90bf238be5a403b1b92dd4072b7fc964",
+      "sha256": "daa6c142d4c7ee2d5c0a566cb68d61bd90bf238be5a403b1b92dd4072b7fc964",
+      "bytes": 23020
+    },
+    {
+      "path": "assets/crops/capture-repeat-future.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-repeat-future.webp",
+      "source_sha256": "031cd2c04da14d0df54764a5eda8012bb867d7298ec6ea3c00ed823076dd8b4c",
+      "sha256": "031cd2c04da14d0df54764a5eda8012bb867d7298ec6ea3c00ed823076dd8b4c",
+      "bytes": 17232
+    },
+    {
+      "path": "assets/crops/capture-repeat-one.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-repeat-one.webp",
+      "source_sha256": "ad4c9af43a86492123a4f6c619d4a03cb83079ada9efa7a7a9f9b4d7aaf80819",
+      "sha256": "ad4c9af43a86492123a4f6c619d4a03cb83079ada9efa7a7a9f9b4d7aaf80819",
+      "bytes": 24794
+    },
+    {
+      "path": "assets/crops/capture-restore-execute.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-restore-execute.webp",
+      "source_sha256": "096a18002f2dc3a0a1bbd7af3d377614b4f6810197d96a92bf6219ec0d149457",
+      "sha256": "096a18002f2dc3a0a1bbd7af3d377614b4f6810197d96a92bf6219ec0d149457",
+      "bytes": 51530
+    },
+    {
+      "path": "assets/crops/capture-restore-file.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-restore-file.webp",
+      "source_sha256": "639972f698bcf237385db2a9e6e7380896bcb82e6c9a831145637d001f5ec722",
+      "sha256": "639972f698bcf237385db2a9e6e7380896bcb82e6c9a831145637d001f5ec722",
+      "bytes": 49292
+    },
+    {
+      "path": "assets/crops/capture-restore-review.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-restore-review.webp",
+      "source_sha256": "f1d182b3dba42dc167666baecd5ab0d0b60d1aaef2a809f36a1df9e789d5b1c8",
+      "sha256": "f1d182b3dba42dc167666baecd5ab0d0b60d1aaef2a809f36a1df9e789d5b1c8",
+      "bytes": 46874
+    },
+    {
+      "path": "assets/crops/capture-reversal-next.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-reversal-next.webp",
+      "source_sha256": "eb3e89d28eb7cacec04552cab39a9376945cb7410b81b6fb116f79755023a339",
+      "sha256": "eb3e89d28eb7cacec04552cab39a9376945cb7410b81b6fb116f79755023a339",
+      "bytes": 14300
+    },
+    {
+      "path": "assets/crops/capture-safety-execute.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-safety-execute.webp",
+      "source_sha256": "00aa641872f7af82b81ca330a5360ad3defeb0cc71ddce77b7b6958b2a09b949",
+      "sha256": "00aa641872f7af82b81ca330a5360ad3defeb0cc71ddce77b7b6958b2a09b949",
+      "bytes": 52342
+    },
+    {
+      "path": "assets/crops/capture-safety-export.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-safety-export.webp",
+      "source_sha256": "0ec752c9847ea5d66e5d05825421019e0bd60082b257e1abd1d3e8b011e72edc",
+      "sha256": "0ec752c9847ea5d66e5d05825421019e0bd60082b257e1abd1d3e8b011e72edc",
+      "bytes": 41842
+    },
+    {
+      "path": "assets/crops/capture-safety-pick.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-safety-pick.webp",
+      "source_sha256": "edd80a34f627c9d16054eba77340655fdf846ac42071d9a8aa40179d9ca261a5",
+      "sha256": "edd80a34f627c9d16054eba77340655fdf846ac42071d9a8aa40179d9ca261a5",
+      "bytes": 48518
+    },
+    {
+      "path": "assets/crops/capture-safety-preview.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-safety-preview.webp",
+      "source_sha256": "709f7ec0483c66cd177e8cb9c2612c738497975e90189b0af7f5e63afdabd13b",
+      "sha256": "709f7ec0483c66cd177e8cb9c2612c738497975e90189b0af7f5e63afdabd13b",
+      "bytes": 46040
+    },
+    {
+      "path": "assets/crops/capture-settings-buffer.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-settings-buffer.webp",
+      "source_sha256": "762018a9048364b6390356b62b9dc3562d3d50ce4b6089f8b3089ebbe3f95627",
+      "sha256": "762018a9048364b6390356b62b9dc3562d3d50ce4b6089f8b3089ebbe3f95627",
+      "bytes": 7136
+    },
+    {
+      "path": "assets/crops/capture-settings-date-only.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-settings-date-only.webp",
+      "source_sha256": "aa0c1ce5c10a76f8ebb4513bc672ffbe6b6ed4f5587480a94bde4fb97a75086c",
+      "sha256": "aa0c1ce5c10a76f8ebb4513bc672ffbe6b6ed4f5587480a94bde4fb97a75086c",
+      "bytes": 17394
+    },
+    {
+      "path": "assets/crops/capture-settings-duration.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-settings-duration.webp",
+      "source_sha256": "f1e02e1aec28a469a0930e35625144bf6d4e879453f3049d4ea6976fb2414e0f",
+      "sha256": "f1e02e1aec28a469a0930e35625144bf6d4e879453f3049d4ea6976fb2414e0f",
+      "bytes": 39670
+    },
+    {
+      "path": "assets/crops/capture-settings-save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-settings-save.webp",
+      "source_sha256": "a3c9ecb627b850618ad1f68633e7fcd1046503db78f9967e583cc86cc90867aa",
+      "sha256": "a3c9ecb627b850618ad1f68633e7fcd1046503db78f9967e583cc86cc90867aa",
+      "bytes": 14642
+    },
+    {
+      "path": "assets/crops/capture-settings-type.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-settings-type.webp",
+      "source_sha256": "4df7c809dc34e47b48dd99e27d9364471b24859491ac44a4c65d894ea5e4168f",
+      "sha256": "4df7c809dc34e47b48dd99e27d9364471b24859491ac44a4c65d894ea5e4168f",
+      "bytes": 19030
+    },
+    {
+      "path": "assets/crops/capture-status-undo.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/capture-status-undo.webp",
+      "source_sha256": "e76d06ddc532ecaa5c870aaa9cb00e3ff3897e75ee7b40809901fd7a43c85045",
+      "sha256": "e76d06ddc532ecaa5c870aaa9cb00e3ff3897e75ee7b40809901fd7a43c85045",
+      "bytes": 15966
+    },
+    {
+      "path": "assets/crops/confirm-date.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/confirm-date.webp",
+      "source_sha256": "10463e54b7f06437e0c2609a92ed0e0b884aafee6d7d56640b7133327d616675",
+      "sha256": "10463e54b7f06437e0c2609a92ed0e0b884aafee6d7d56640b7133327d616675",
+      "bytes": 6118
+    },
+    {
+      "path": "assets/crops/confirm-datetime.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/confirm-datetime.webp",
+      "source_sha256": "0a7e1ba69bcca360a9c5565b9dc3c48e8d40961031239a3cce422afac2c59fa5",
+      "sha256": "0a7e1ba69bcca360a9c5565b9dc3c48e8d40961031239a3cce422afac2c59fa5",
+      "bytes": 9056
+    },
+    {
+      "path": "assets/crops/customer-name.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/customer-name.webp",
+      "source_sha256": "6902f5dc027517dc43feca5f64886e5b3d608b87cd136870e1b966acc8e6e206",
+      "sha256": "6902f5dc027517dc43feca5f64886e5b3d608b87cd136870e1b966acc8e6e206",
+      "bytes": 5022
+    },
+    {
+      "path": "assets/crops/date-picker.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/date-picker.webp",
+      "source_sha256": "427965470bf80f06c6d3b93212308cd41c81da7d301a62abefbde06f4d426ba3",
+      "sha256": "427965470bf80f06c6d3b93212308cd41c81da7d301a62abefbde06f4d426ba3",
+      "bytes": 51458
+    },
+    {
+      "path": "assets/crops/departure-alarm.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/departure-alarm.webp",
+      "source_sha256": "40fada0385c0c866e94dbb53268498aacf1d9fc9afb6d0e84ed9b29eefcc3a3c",
+      "sha256": "40fada0385c0c866e94dbb53268498aacf1d9fc9afb6d0e84ed9b29eefcc3a3c",
+      "bytes": 23954
+    },
+    {
+      "path": "assets/crops/departure-field.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/departure-field.webp",
+      "source_sha256": "d1e8ff3c6204129fd3aedc3bbbce9af35460025fbb7178ab8e1e72e17c4a0342",
+      "sha256": "d1e8ff3c6204129fd3aedc3bbbce9af35460025fbb7178ab8e1e72e17c4a0342",
+      "bytes": 26822
+    },
+    {
+      "path": "assets/crops/departure-registered.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/departure-registered.webp",
+      "source_sha256": "529e226cfe4c7172548aeb228ac76a41ec38513853c55acbbcef764f6e44545c",
+      "sha256": "529e226cfe4c7172548aeb228ac76a41ec38513853c55acbbcef764f6e44545c",
+      "bytes": 13618
+    },
+    {
+      "path": "assets/crops/departure-toggle.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/departure-toggle.webp",
+      "source_sha256": "661dd062eddc4059ce711aadc4b3f57d2f60d6be5d197b8937004ab9e8b90e9e",
+      "sha256": "661dd062eddc4059ce711aadc4b3f57d2f60d6be5d197b8937004ab9e8b90e9e",
+      "bytes": 6440
+    },
+    {
+      "path": "assets/crops/departure-waiting.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/departure-waiting.webp",
+      "source_sha256": "0a92e2ec225a45aa23503383ddd545627aac231e0fd38a7bb26d9b2aab982ae1",
+      "sha256": "0a92e2ec225a45aa23503383ddd545627aac231e0fd38a7bb26d9b2aab982ae1",
+      "bytes": 32760
+    },
+    {
+      "path": "assets/crops/discount.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/discount.webp",
+      "source_sha256": "6b432adc43a65c988c8f3f521547405597df3fa22a2f081a8dbebdc887dd3db0",
+      "sha256": "6b432adc43a65c988c8f3f521547405597df3fa22a2f081a8dbebdc887dd3db0",
+      "bytes": 20014
+    },
+    {
+      "path": "assets/crops/edit-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/edit-entry.webp",
+      "source_sha256": "5b86626460d7d3b4973ed2eb0ae7b320a02be6900751df968c56b31b7c7fe475",
+      "sha256": "5b86626460d7d3b4973ed2eb0ae7b320a02be6900751df968c56b31b7c7fe475",
+      "bytes": 12592
+    },
+    {
+      "path": "assets/crops/edit-save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/edit-save.webp",
+      "source_sha256": "007914cf36e15523f043fb9097f62c6f04c79854e04d4259c2302e799062df35",
+      "sha256": "007914cf36e15523f043fb9097f62c6f04c79854e04d4259c2302e799062df35",
+      "bytes": 11788
+    },
+    {
+      "path": "assets/crops/existing-customer.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/existing-customer.webp",
+      "source_sha256": "ffbb57aa63820450c3b3aa48bdb8f76de257afe918d974089b2a2b8f1928d7f3",
+      "sha256": "ffbb57aa63820450c3b3aa48bdb8f76de257afe918d974089b2a2b8f1928d7f3",
+      "bytes": 10578
+    },
+    {
+      "path": "assets/crops/export-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/export-entry.webp",
+      "source_sha256": "0823492f22ec578e1c337e48d1c5e237c1ef384f361cf60ae6b0d14db457f482",
+      "sha256": "0823492f22ec578e1c337e48d1c5e237c1ef384f361cf60ae6b0d14db457f482",
+      "bytes": 7048
+    },
+    {
+      "path": "assets/crops/finance-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/finance-entry.webp",
+      "source_sha256": "a74a57bd7f4e81ac06d61320a926488b95fd69ddab30627bb5fa2f9a564095cc",
+      "sha256": "a74a57bd7f4e81ac06d61320a926488b95fd69ddab30627bb5fa2f9a564095cc",
+      "bytes": 5358
+    },
+    {
+      "path": "assets/crops/follow-status.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/follow-status.webp",
+      "source_sha256": "1f0a379ffc71f433604fbe036cba6e4d18c739069adb221bdb935cade4672b03",
+      "sha256": "1f0a379ffc71f433604fbe036cba6e4d18c739069adb221bdb935cade4672b03",
+      "bytes": 7622
+    },
+    {
+      "path": "assets/crops/follow-toggle.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/follow-toggle.webp",
+      "source_sha256": "92ff72153e492068b025b4b87d9c9a2d536fb8c534162dccf57baac69a141d8a",
+      "sha256": "92ff72153e492068b025b4b87d9c9a2d536fb8c534162dccf57baac69a141d8a",
+      "bytes": 22290
+    },
+    {
+      "path": "assets/crops/free-open.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/free-open.webp",
+      "source_sha256": "368e0c42477731937388eb1feaa85ea3315eb38d7615aa918a80c59623809dff",
+      "sha256": "368e0c42477731937388eb1feaa85ea3315eb38d7615aa918a80c59623809dff",
+      "bytes": 43982
+    },
+    {
+      "path": "assets/crops/hero.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/hero.webp",
+      "source_sha256": "fb213fe0b55e0c34dd1fa00f42a2a49709c7731023a948ab080062469a5d52c0",
+      "sha256": "fb213fe0b55e0c34dd1fa00f42a2a49709c7731023a948ab080062469a5d52c0",
+      "bytes": 66614
+    },
+    {
+      "path": "assets/crops/makeup-time.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/makeup-time.webp",
+      "source_sha256": "1f2e30dba0eb7d2d206b5486469aa45e86dfe4a1a7503cb253b8c9c7db22bda2",
+      "sha256": "1f2e30dba0eb7d2d206b5486469aa45e86dfe4a1a7503cb253b8c9c7db22bda2",
+      "bytes": 12966
+    },
+    {
+      "path": "assets/crops/makeup-toggle.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/makeup-toggle.webp",
+      "source_sha256": "47051ceaf3972184da0ed5c4248887a1b5e13eb1960b0d548402bad8fa245ac9",
+      "sha256": "47051ceaf3972184da0ed5c4248887a1b5e13eb1960b0d548402bad8fa245ac9",
+      "bytes": 7950
+    },
+    {
+      "path": "assets/crops/nav-add.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/nav-add.webp",
+      "source_sha256": "0b01269f2222f8b8214fa71dc5ea665c8b8875d6b85b3762ea7751001f1333d9",
+      "sha256": "0b01269f2222f8b8214fa71dc5ea665c8b8875d6b85b3762ea7751001f1333d9",
+      "bytes": 7324
+    },
+    {
+      "path": "assets/crops/nav-appointments.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/nav-appointments.webp",
+      "source_sha256": "89fdea60d0b42148d9be59fd39b36cd68def9772089664fd1c1706f45b09476f",
+      "sha256": "89fdea60d0b42148d9be59fd39b36cd68def9772089664fd1c1706f45b09476f",
+      "bytes": 11124
+    },
+    {
+      "path": "assets/crops/nav-my.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/nav-my.webp",
+      "source_sha256": "0f0cb0495a592fa8800b524f6ee16863aca8e094f1ee59eb5cab31463acef289",
+      "sha256": "0f0cb0495a592fa8800b524f6ee16863aca8e094f1ee59eb5cab31463acef289",
+      "bytes": 10804
+    },
+    {
+      "path": "assets/crops/order-save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/order-save.webp",
+      "source_sha256": "1a84f027a503c26e8d6b071eb932443c1914256a8a20ef09953cc4122e329e92",
+      "sha256": "1a84f027a503c26e8d6b071eb932443c1914256a8a20ef09953cc4122e329e92",
+      "bytes": 10022
+    },
+    {
+      "path": "assets/crops/order-services.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/order-services.webp",
+      "source_sha256": "1fb9d862069873d487565222428453e2868c06d41a829816fef8adf76846bd62",
+      "sha256": "1fb9d862069873d487565222428453e2868c06d41a829816fef8adf76846bd62",
+      "bytes": 35170
+    },
+    {
+      "path": "assets/crops/package-switch.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/package-switch.webp",
+      "source_sha256": "87330f81e0131d5ecbc97211ed71f93b73606a779790e2fa03a56339005fc137",
+      "sha256": "87330f81e0131d5ecbc97211ed71f93b73606a779790e2fa03a56339005fc137",
+      "bytes": 5908
+    },
+    {
+      "path": "assets/crops/payment-save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/payment-save.webp",
+      "source_sha256": "83d41cb9a2be514e421fb681a20df1e6d614cef591e312956dec3c6273bfa1f5",
+      "sha256": "83d41cb9a2be514e421fb681a20df1e6d614cef591e312956dec3c6273bfa1f5",
+      "bytes": 10874
+    },
+    {
+      "path": "assets/crops/permission-request.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/permission-request.webp",
+      "source_sha256": "73d3763e99073c92365a53745bb6ceb55b2323ff25709b782e6e0ee98a6a87e3",
+      "sha256": "73d3763e99073c92365a53745bb6ceb55b2323ff25709b782e6e0ee98a6a87e3",
+      "bytes": 27306
+    },
+    {
+      "path": "assets/crops/permission-state.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/permission-state.webp",
+      "source_sha256": "0f6a4bbc586978ad9505332e1eff1aac3a79631e5738c436c2aab8ef8c2776bf",
+      "sha256": "0f6a4bbc586978ad9505332e1eff1aac3a79631e5738c436c2aab8ef8c2776bf",
+      "bytes": 10534
+    },
+    {
+      "path": "assets/crops/preparation.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/preparation.webp",
+      "source_sha256": "dca2b2630498d3a60292b9cd3dc2dd9f7af845da05a151e60f4c4829d5fcbac1",
+      "sha256": "dca2b2630498d3a60292b9cd3dc2dd9f7af845da05a151e60f4c4829d5fcbac1",
+      "bytes": 21852
+    },
+    {
+      "path": "assets/crops/pricing-add-line.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/pricing-add-line.webp",
+      "source_sha256": "6d24b43ec803f7eb41892dcf4e4bb57d9e28a77881e8d04b93a28e3f86b50d88",
+      "sha256": "6d24b43ec803f7eb41892dcf4e4bb57d9e28a77881e8d04b93a28e3f86b50d88",
+      "bytes": 6256
+    },
+    {
+      "path": "assets/crops/pricing-after.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/pricing-after.webp",
+      "source_sha256": "bcb2a161aafe0bc59a4dad044d95a5cf0612c50762fd4973f83dcff6c0d51f0c",
+      "sha256": "bcb2a161aafe0bc59a4dad044d95a5cf0612c50762fd4973f83dcff6c0d51f0c",
+      "bytes": 6902
+    },
+    {
+      "path": "assets/crops/pricing-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/pricing-entry.webp",
+      "source_sha256": "63dda41c53e8ab4c5ccfaeee61608f3b954804dd26f6af0eaa54acf7674d8539",
+      "sha256": "63dda41c53e8ab4c5ccfaeee61608f3b954804dd26f6af0eaa54acf7674d8539",
+      "bytes": 10424
+    },
+    {
+      "path": "assets/crops/pricing-lines.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/pricing-lines.webp",
+      "source_sha256": "54a3dc1d94cc1002a10dd09f1befc353c72591c6d0f68d24e06f0feece4cacc9",
+      "sha256": "54a3dc1d94cc1002a10dd09f1befc353c72591c6d0f68d24e06f0feece4cacc9",
+      "bytes": 14864
+    },
+    {
+      "path": "assets/crops/receipt-after.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/receipt-after.webp",
+      "source_sha256": "344940932fd758c5b675e87a93f4f008ffeefee969c734aeaff7a81b71eefe4b",
+      "sha256": "344940932fd758c5b675e87a93f4f008ffeefee969c734aeaff7a81b71eefe4b",
+      "bytes": 29078
+    },
+    {
+      "path": "assets/crops/receipt-amount.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/receipt-amount.webp",
+      "source_sha256": "85cfe2b609e14ee11939a073e0e55589f9393396b81133df6455716489ca6df3",
+      "sha256": "85cfe2b609e14ee11939a073e0e55589f9393396b81133df6455716489ca6df3",
+      "bytes": 2054
+    },
+    {
+      "path": "assets/crops/receipt-date.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/receipt-date.webp",
+      "source_sha256": "7d2258a9699fe9d03f3b367a0433442063828330c27d1f3b9d32b576d8b3c64e",
+      "sha256": "7d2258a9699fe9d03f3b367a0433442063828330c27d1f3b9d32b576d8b3c64e",
+      "bytes": 10794
+    },
+    {
+      "path": "assets/crops/receipt-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/receipt-entry.webp",
+      "source_sha256": "2b9d62bf2827623836c3a458f7a3151b405968d5361f10bbcef6ffba956db717",
+      "sha256": "2b9d62bf2827623836c3a458f7a3151b405968d5361f10bbcef6ffba956db717",
+      "bytes": 5684
+    },
+    {
+      "path": "assets/crops/receipt-note.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/receipt-note.webp",
+      "source_sha256": "16742c5c4159b6c4dc55c56d9b2a0db701b3ef55af793f6417e221ec016da588",
+      "sha256": "16742c5c4159b6c4dc55c56d9b2a0db701b3ef55af793f6417e221ec016da588",
+      "bytes": 4100
+    },
+    {
+      "path": "assets/crops/refund-after.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/refund-after.webp",
+      "source_sha256": "6f3d1ef026ad8ae6952056aa26d4b19d864575114e7b6623ca2f657a6fb0d6f0",
+      "sha256": "6f3d1ef026ad8ae6952056aa26d4b19d864575114e7b6623ca2f657a6fb0d6f0",
+      "bytes": 11202
+    },
+    {
+      "path": "assets/crops/refund-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/refund-entry.webp",
+      "source_sha256": "52e439d7c685f6c145045e9acca193489b33b4c3debf5be2dffe773c3fe43bf1",
+      "sha256": "52e439d7c685f6c145045e9acca193489b33b4c3debf5be2dffe773c3fe43bf1",
+      "bytes": 5600
+    },
+    {
+      "path": "assets/crops/registered-reminders.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/registered-reminders.webp",
+      "source_sha256": "7106d1374548a9cc3ad4009ee5516d1aae4da7b1aafc0a2e73334e799a5f56c4",
+      "sha256": "7106d1374548a9cc3ad4009ee5516d1aae4da7b1aafc0a2e73334e799a5f56c4",
+      "bytes": 67650
+    },
+    {
+      "path": "assets/crops/reminder-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/reminder-entry.webp",
+      "source_sha256": "d9ae5f1419f9c83264edeb7c6ea03f219c176b491aac4ab183d5897996da8984",
+      "sha256": "d9ae5f1419f9c83264edeb7c6ea03f219c176b491aac4ab183d5897996da8984",
+      "bytes": 18306
+    },
+    {
+      "path": "assets/crops/restore-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/restore-entry.webp",
+      "source_sha256": "c3ae002fdff25412a4eae407cf90fca2b99b49ed25197562f600549676f4c047",
+      "sha256": "c3ae002fdff25412a4eae407cf90fca2b99b49ed25197562f600549676f4c047",
+      "bytes": 5874
+    },
+    {
+      "path": "assets/crops/reversal-after.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/reversal-after.webp",
+      "source_sha256": "4c1133d84af84d79e1670a09d54126b7dd5602030f298b4ec0f940742b376f06",
+      "sha256": "4c1133d84af84d79e1670a09d54126b7dd5602030f298b4ec0f940742b376f06",
+      "bytes": 60734
+    },
+    {
+      "path": "assets/crops/reversal-dialog.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/reversal-dialog.webp",
+      "source_sha256": "6d93598e4909ee48761dc32ad4cbdf2bb638072f6a81c694a715c24ba333ba76",
+      "sha256": "6d93598e4909ee48761dc32ad4cbdf2bb638072f6a81c694a715c24ba333ba76",
+      "bytes": 41132
+    },
+    {
+      "path": "assets/crops/reversal-original.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/reversal-original.webp",
+      "source_sha256": "77674f08072b1b11b127841ac31ec13bcb157dd7b7e1897572bebff08d6b96c2",
+      "sha256": "77674f08072b1b11b127841ac31ec13bcb157dd7b7e1897572bebff08d6b96c2",
+      "bytes": 11222
+    },
+    {
+      "path": "assets/crops/safety-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/safety-entry.webp",
+      "source_sha256": "018c022617e14e00e55e680818c5d8c68a0f0f15dff1c42a6a0eb3f4b4e828bc",
+      "sha256": "018c022617e14e00e55e680818c5d8c68a0f0f15dff1c42a6a0eb3f4b4e828bc",
+      "bytes": 4186
+    },
+    {
+      "path": "assets/crops/same-order.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/same-order.webp",
+      "source_sha256": "c86f4f4f5cf5eb4e62e8ff071f22eb6a027c4668fb847362628c130e433fc6ae",
+      "sha256": "c86f4f4f5cf5eb4e62e8ff071f22eb6a027c4668fb847362628c130e433fc6ae",
+      "bytes": 58646
+    },
+    {
+      "path": "assets/crops/save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/save.webp",
+      "source_sha256": "b4817596a315f0b475003efda39c409e395de85095915ab3f7db1d274ee8fc6d",
+      "sha256": "b4817596a315f0b475003efda39c409e395de85095915ab3f7db1d274ee8fc6d",
+      "bytes": 11452
+    },
+    {
+      "path": "assets/crops/saved-detail.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/saved-detail.webp",
+      "source_sha256": "8826061e38a64e4c619c1f3970e59f0d3043883e37f8d8f147365bfda77ca648",
+      "sha256": "8826061e38a64e4c619c1f3970e59f0d3043883e37f8d8f147365bfda77ca648",
+      "bytes": 48148
+    },
+    {
+      "path": "assets/crops/service-date.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/service-date.webp",
+      "source_sha256": "6222d0c8774d58e02e7281179fda076046cd093df42b0b1e030e7e34ad6f29e5",
+      "sha256": "6222d0c8774d58e02e7281179fda076046cd093df42b0b1e030e7e34ad6f29e5",
+      "bytes": 9674
+    },
+    {
+      "path": "assets/crops/service-end.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/service-end.webp",
+      "source_sha256": "b91c0862b43b2b1b4f01f68117b9b92b99e29e1e67c39e2a03c247e25aa96ba3",
+      "sha256": "b91c0862b43b2b1b4f01f68117b9b92b99e29e1e67c39e2a03c247e25aa96ba3",
+      "bytes": 13226
+    },
+    {
+      "path": "assets/crops/service-type.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/service-type.webp",
+      "source_sha256": "1c7b22b24c306617c2b568f1f9175a38499107a6dd9a68808ea3204c8198cd26",
+      "sha256": "1c7b22b24c306617c2b568f1f9175a38499107a6dd9a68808ea3204c8198cd26",
+      "bytes": 10044
+    },
+    {
+      "path": "assets/crops/settings-entry.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/settings-entry.webp",
+      "source_sha256": "26827a508ab2b38a2da760348b78802b43d79cecbff9029c5c75d4b633b45b13",
+      "sha256": "26827a508ab2b38a2da760348b78802b43d79cecbff9029c5c75d4b633b45b13",
+      "bytes": 8762
+    },
+    {
+      "path": "assets/crops/task-date.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/task-date.webp",
+      "source_sha256": "420bf96faa269a78f4508fcdac2cc2351625ef874c1ed593d4e0fccc5dc4bbb8",
+      "sha256": "420bf96faa269a78f4508fcdac2cc2351625ef874c1ed593d4e0fccc5dc4bbb8",
+      "bytes": 9664
+    },
+    {
+      "path": "assets/crops/task-occupies.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/task-occupies.webp",
+      "source_sha256": "4ff43a407ebf7ab221c7dfb2428b19be282c33b5680463d5ae96cfa00547a059",
+      "sha256": "4ff43a407ebf7ab221c7dfb2428b19be282c33b5680463d5ae96cfa00547a059",
+      "bytes": 8416
+    },
+    {
+      "path": "assets/crops/task-reminder.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/task-reminder.webp",
+      "source_sha256": "850f26fedfff7d5ba4d5ea6efba59ac74337bd714b4b8a09ff19abca579ced3e",
+      "sha256": "850f26fedfff7d5ba4d5ea6efba59ac74337bd714b4b8a09ff19abca579ced3e",
+      "bytes": 15732
+    },
+    {
+      "path": "assets/crops/task-repeat.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/task-repeat.webp",
+      "source_sha256": "717e13d84b7e3ab6c2e8e91f6186cdc98fc3fef9e64376a12c81232a328f264c",
+      "sha256": "717e13d84b7e3ab6c2e8e91f6186cdc98fc3fef9e64376a12c81232a328f264c",
+      "bytes": 10300
+    },
+    {
+      "path": "assets/crops/task-save.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/task-save.webp",
+      "source_sha256": "c5383a25584cb6e79d28fe4ab0bae4a47ec7c32e53498646e8401f85f5a85a26",
+      "sha256": "c5383a25584cb6e79d28fe4ab0bae4a47ec7c32e53498646e8401f85f5a85a26",
+      "bytes": 10840
+    },
+    {
+      "path": "assets/crops/task-time.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/task-time.webp",
+      "source_sha256": "9bcc90f1f51755c16644dca59410dd84ec1ffcf34b632dae02a0b757deb0c77b",
+      "sha256": "9bcc90f1f51755c16644dca59410dd84ec1ffcf34b632dae02a0b757deb0c77b",
+      "bytes": 4784
+    },
+    {
+      "path": "assets/crops/task-title.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/task-title.webp",
+      "source_sha256": "8de2c4df13189595807f079fefb770a75b7b4648c55bd8edc59b8a8d6ec57d14",
+      "sha256": "8de2c4df13189595807f079fefb770a75b7b4648c55bd8edc59b8a8d6ec57d14",
+      "bytes": 4556
+    },
+    {
+      "path": "assets/crops/time-undetermined.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/time-undetermined.webp",
+      "source_sha256": "d51fe4e2a3e52b8704a20c00f12533e7819cef95b3ba70650a01e30d6d21f9f3",
+      "sha256": "d51fe4e2a3e52b8704a20c00f12533e7819cef95b3ba70650a01e30d6d21f9f3",
+      "bytes": 20660
+    },
+    {
+      "path": "assets/crops/timezone.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/timezone.webp",
+      "source_sha256": "305b7bb7bb3fdc0354b2aba4288d8d12da02cf666d5bb4183e5544bfc8237f4d",
+      "sha256": "305b7bb7bb3fdc0354b2aba4288d8d12da02cf666d5bb4183e5544bfc8237f4d",
+      "bytes": 6196
+    },
+    {
+      "path": "assets/crops/tomorrow.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/tomorrow.webp",
+      "source_sha256": "eae1653b4210df9e0607721432337d7d4da3821576a5ea62f7e5a9c2479ea0ad",
+      "sha256": "eae1653b4210df9e0607721432337d7d4da3821576a5ea62f7e5a9c2479ea0ad",
+      "bytes": 21342
+    },
+    {
+      "path": "assets/crops/trial-date.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/trial-date.webp",
+      "source_sha256": "c6af3616e1a998a3119f67a793432177cf2fb279a3ee6e695f6718c8a6a6aa8f",
+      "sha256": "c6af3616e1a998a3119f67a793432177cf2fb279a3ee6e695f6718c8a6a6aa8f",
+      "bytes": 10046
+    },
+    {
+      "path": "assets/crops/trial-price.webp",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/crops/trial-price.webp",
+      "source_sha256": "c0bda6d5a543236af31a29b63163abe6a55e55645d21154786aafd92fcf23d7f",
+      "sha256": "c0bda6d5a543236af31a29b63163abe6a55e55645d21154786aafd92fcf23d7f",
+      "bytes": 1726
+    },
+    {
+      "path": "assets/originals/add-menu.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/add-menu.png",
+      "source_sha256": "021be64ce8c201f81055a5384b1405302a8667d30c31849bb8b5fa25353ff900",
+      "sha256": "021be64ce8c201f81055a5384b1405302a8667d30c31849bb8b5fa25353ff900",
+      "bytes": 1008943
+    },
+    {
+      "path": "assets/originals/append-customer.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/append-customer.png",
+      "source_sha256": "a1c3f4c9ee25e3b1cf39bfcae26832d871c202d509c6a72c05d4c60218772d69",
+      "sha256": "a1c3f4c9ee25e3b1cf39bfcae26832d871c202d509c6a72c05d4c60218772d69",
+      "bytes": 312768
+    },
+    {
+      "path": "assets/originals/append-destination.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/append-destination.png",
+      "source_sha256": "3c5984b646819939051ed9449ce4b398c30d63ae1c5c0b4a81de4df201fd87ed",
+      "sha256": "3c5984b646819939051ed9449ce4b398c30d63ae1c5c0b4a81de4df201fd87ed",
+      "bytes": 341737
+    },
+    {
+      "path": "assets/originals/block-form.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/block-form.png",
+      "source_sha256": "73a729231882885060ee75c0ef29db20cfabb118205efbe119684fe90437ef83",
+      "sha256": "73a729231882885060ee75c0ef29db20cfabb118205efbe119684fe90437ef83",
+      "bytes": 422335
+    },
+    {
+      "path": "assets/originals/calendar-copy.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/calendar-copy.png",
+      "source_sha256": "a02a8166673ce0868f7ad3b9914db55a796024d8f497b0f90bd75d0e595bbbb3",
+      "sha256": "a02a8166673ce0868f7ad3b9914db55a796024d8f497b0f90bd75d0e595bbbb3",
+      "bytes": 371052
+    },
+    {
+      "path": "assets/originals/calendar-light.jpg",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/calendar-light.jpg",
+      "source_sha256": "65f57ee80312e32db4f0374e3a90754790836853cc90e6756aa73e4e73a08f91",
+      "sha256": "65f57ee80312e32db4f0374e3a90754790836853cc90e6756aa73e4e73a08f91",
+      "bytes": 1005271
+    },
+    {
+      "path": "assets/originals/cancel-services.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/cancel-services.png",
+      "source_sha256": "39277c45b2839d3234e87a508d10ca260d75e5e706f5ef95d76754cbf15dd32f",
+      "sha256": "39277c45b2839d3234e87a508d10ca260d75e5e706f5ef95d76754cbf15dd32f",
+      "bytes": 307763
+    },
+    {
+      "path": "assets/originals/capture-alarm-alerting-real.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-alarm-alerting-real.png",
+      "source_sha256": "1f61f874d1c122c404bcb8672e02ef61eb77b9160d29a6b0abb80210f8962c0a",
+      "sha256": "1f61f874d1c122c404bcb8672e02ef61eb77b9160d29a6b0abb80210f8962c0a",
+      "bytes": 3087666
+    },
+    {
+      "path": "assets/originals/capture-alarm-paused-verified.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-alarm-paused-verified.png",
+      "source_sha256": "37235821ebc3719d8bd7ae270603b7c96eab45c2dcad090ed3beb0e8c4dad865",
+      "sha256": "37235821ebc3719d8bd7ae270603b7c96eab45c2dcad090ed3beb0e8c4dad865",
+      "bytes": 2937758
+    },
+    {
+      "path": "assets/originals/capture-alarm-snoozed-system-card-real.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-alarm-snoozed-system-card-real.png",
+      "source_sha256": "18b5fa5d49003d5a8de92710f09380eb710824a5f8602a7bd2a305f6b8045125",
+      "sha256": "18b5fa5d49003d5a8de92710f09380eb710824a5f8602a7bd2a305f6b8045125",
+      "bytes": 2925327
+    },
+    {
+      "path": "assets/originals/capture-append-trial-time-off.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-append-trial-time-off.png",
+      "source_sha256": "238adeceae5d0721a0af8c0a13c5c31a0fb10f6014954b12a6bb5dc2d5afe315",
+      "sha256": "238adeceae5d0721a0af8c0a13c5c31a0fb10f6014954b12a6bb5dc2d5afe315",
+      "bytes": 279864
+    },
+    {
+      "path": "assets/originals/capture-append-trial-times.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-append-trial-times.png",
+      "source_sha256": "caaaf5796c4c4040536c944cb63217135298cd3eb379d45e076a61f962404aa9",
+      "sha256": "caaaf5796c4c4040536c944cb63217135298cd3eb379d45e076a61f962404aa9",
+      "bytes": 266046
+    },
+    {
+      "path": "assets/originals/capture-appointment-list-filters.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-appointment-list-filters.png",
+      "source_sha256": "55ef320c4f41ad9bc3fd1c6e7c2d8769f6bd941a916dc28a476b07507b4f11c1",
+      "sha256": "55ef320c4f41ad9bc3fd1c6e7c2d8769f6bd941a916dc28a476b07507b4f11c1",
+      "bytes": 853018
+    },
+    {
+      "path": "assets/originals/capture-calendar-duplicate-warning.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-calendar-duplicate-warning.png",
+      "source_sha256": "f428b1de80926b2392b0501c13f7e62afd7d102464d90fc56f137bb94fd34209",
+      "sha256": "f428b1de80926b2392b0501c13f7e62afd7d102464d90fc56f137bb94fd34209",
+      "bytes": 514199
+    },
+    {
+      "path": "assets/originals/capture-calendar-system-before-save.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-calendar-system-before-save.png",
+      "source_sha256": "9a0067420a15bfde657534f16ab13ea86cc64bc09b433cb816ce47fb88cda541",
+      "sha256": "9a0067420a15bfde657534f16ab13ea86cc64bc09b433cb816ce47fb88cda541",
+      "bytes": 187689
+    },
+    {
+      "path": "assets/originals/capture-cancel-final-confirmation.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-cancel-final-confirmation.png",
+      "source_sha256": "75121f1afbf65f9f96cb4c3e9a25190c1f86c2fae13c56b7ce922b86f7c25658",
+      "sha256": "75121f1afbf65f9f96cb4c3e9a25190c1f86c2fae13c56b7ce922b86f7c25658",
+      "bytes": 402537
+    },
+    {
+      "path": "assets/originals/capture-cancelled-list-verified.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-cancelled-list-verified.png",
+      "source_sha256": "93fb5c16f14d065ec8de3ec6b5d2a0057db7d0893459e7de077b1c748d1365ec",
+      "sha256": "93fb5c16f14d065ec8de3ec6b5d2a0057db7d0893459e7de077b1c748d1365ec",
+      "bytes": 852996
+    },
+    {
+      "path": "assets/originals/capture-cancelled-restore-button.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-cancelled-restore-button.png",
+      "source_sha256": "19572dc76de2e997dc64c187a61c94eac5b2657631f0a1e7c1b22c4238e6ad5d",
+      "sha256": "19572dc76de2e997dc64c187a61c94eac5b2657631f0a1e7c1b22c4238e6ad5d",
+      "bytes": 861744
+    },
+    {
+      "path": "assets/originals/capture-completed-trial-followup-entry.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-completed-trial-followup-entry.png",
+      "source_sha256": "198f55c0827c10788f7caf51297cf9442b0664a96c88591836c800141ea7f270",
+      "sha256": "198f55c0827c10788f7caf51297cf9442b0664a96c88591836c800141ea7f270",
+      "bytes": 803351
+    },
+    {
+      "path": "assets/originals/capture-customer-detail.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-customer-detail.png",
+      "source_sha256": "06fc06d190ac82a72b3c19dd59c6f35f1c1d6ef011d792a2d37b449ea9e2d995",
+      "sha256": "06fc06d190ac82a72b3c19dd59c6f35f1c1d6ef011d792a2d37b449ea9e2d995",
+      "bytes": 285164
+    },
+    {
+      "path": "assets/originals/capture-customer-edit-form.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-customer-edit-form.png",
+      "source_sha256": "e704be2deec0ceaba6e06622574eedcab65034ec56e2df3666ccedc84b342151",
+      "sha256": "e704be2deec0ceaba6e06622574eedcab65034ec56e2df3666ccedc84b342151",
+      "bytes": 146407
+    },
+    {
+      "path": "assets/originals/capture-customer-list.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-customer-list.png",
+      "source_sha256": "6b2170a05d96fbac0620bba792a3740a0341aa37d6c71c1537f7f10f01dc1db3",
+      "sha256": "6b2170a05d96fbac0620bba792a3740a0341aa37d6c71c1537f7f10f01dc1db3",
+      "bytes": 791242
+    },
+    {
+      "path": "assets/originals/capture-defaults-duration.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-defaults-duration.png",
+      "source_sha256": "3a1216b3b65fff8d0441085f249d6560e32b1b0e3dfdaab5f57cc6a310c9b793",
+      "sha256": "3a1216b3b65fff8d0441085f249d6560e32b1b0e3dfdaab5f57cc6a310c9b793",
+      "bytes": 355038
+    },
+    {
+      "path": "assets/originals/capture-defaults-lower.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-defaults-lower.png",
+      "source_sha256": "26e8489de996ba2b87558adb9032618260722ecfcde0d089faf2ca3261206dc5",
+      "sha256": "26e8489de996ba2b87558adb9032618260722ecfcde0d089faf2ca3261206dc5",
+      "bytes": 356196
+    },
+    {
+      "path": "assets/originals/capture-export-confirmed-file.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-export-confirmed-file.png",
+      "source_sha256": "c8cb1f3edb9debfd370fc9e61e16bbead6046442288aed37c4c42fe7bd0c75f2",
+      "sha256": "c8cb1f3edb9debfd370fc9e61e16bbead6046442288aed37c4c42fe7bd0c75f2",
+      "bytes": 303293
+    },
+    {
+      "path": "assets/originals/capture-export-file-actions.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-export-file-actions.png",
+      "source_sha256": "24a3778c0de64c20bf89e21e14e3dacdd7bc872cc30d78d1aab3394609e78c34",
+      "sha256": "24a3778c0de64c20bf89e21e14e3dacdd7bc872cc30d78d1aab3394609e78c34",
+      "bytes": 529773
+    },
+    {
+      "path": "assets/originals/capture-export-privacy-confirm.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-export-privacy-confirm.png",
+      "source_sha256": "45377cf2c797c19a9e46462f2e1f81678b1bc27056245a6b13f5ba3b6d3ffc3c",
+      "sha256": "45377cf2c797c19a9e46462f2e1f81678b1bc27056245a6b13f5ba3b6d3ffc3c",
+      "bytes": 937263
+    },
+    {
+      "path": "assets/originals/capture-export-system-save.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-export-system-save.png",
+      "source_sha256": "2f9de2ad3bc03165ac05eb34662b7f5360aa43d3cb2b25d8f989c3b475e6cc15",
+      "sha256": "2f9de2ad3bc03165ac05eb34662b7f5360aa43d3cb2b25d8f989c3b475e6cc15",
+      "bytes": 495805
+    },
+    {
+      "path": "assets/originals/capture-first-order-and-price.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-first-order-and-price.png",
+      "source_sha256": "9dd07bf3de07943f9d1e4d2d2f8e6178dea76c2a0147ac74bb4c03597767cded",
+      "sha256": "9dd07bf3de07943f9d1e4d2d2f8e6178dea76c2a0147ac74bb4c03597767cded",
+      "bytes": 283591
+    },
+    {
+      "path": "assets/originals/capture-followup-date-time.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-followup-date-time.png",
+      "source_sha256": "7bbd78ab45f435bb35c5f7b81da2f8e16cbb53d3ebf294ce5482f8c4808ac64a",
+      "sha256": "7bbd78ab45f435bb35c5f7b81da2f8e16cbb53d3ebf294ce5482f8c4808ac64a",
+      "bytes": 442940
+    },
+    {
+      "path": "assets/originals/capture-migration-all-three-off-final.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-migration-all-three-off-final.png",
+      "source_sha256": "56114974b7c13ca5ceab7d5dd2fc0c0d6e4cb1b16a0615a7096cb3ed779f3765",
+      "sha256": "56114974b7c13ca5ceab7d5dd2fc0c0d6e4cb1b16a0615a7096cb3ed779f3765",
+      "bytes": 302152
+    },
+    {
+      "path": "assets/originals/capture-month-selection.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-month-selection.png",
+      "source_sha256": "19579a16bbc949c417fc172097e9827d6dcc67d8c2a9ba36411ef22666fe0ee4",
+      "sha256": "19579a16bbc949c417fc172097e9827d6dcc67d8c2a9ba36411ef22666fe0ee4",
+      "bytes": 839004
+    },
+    {
+      "path": "assets/originals/capture-order-cancel-verified.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-order-cancel-verified.png",
+      "source_sha256": "c1b1727b8d265eee4ee3bfc5505fcc2c08fd6bd810af42460823cacbdb71878b",
+      "sha256": "c1b1727b8d265eee4ee3bfc5505fcc2c08fd6bd810af42460823cacbdb71878b",
+      "bytes": 402226
+    },
+    {
+      "path": "assets/originals/capture-post-correction-entry-options.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-post-correction-entry-options.png",
+      "source_sha256": "4f5d8657a2efbdd5ddce1b133bcd312d2dbaa3c627c35af56824beed5e15f5d3",
+      "sha256": "4f5d8657a2efbdd5ddce1b133bcd312d2dbaa3c627c35af56824beed5e15f5d3",
+      "bytes": 308517
+    },
+    {
+      "path": "assets/originals/capture-refund-100-verified.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-refund-100-verified.png",
+      "source_sha256": "439a6f47a72c97624cef2a2f68224ae2c50a6e75eb42562c4147fb5ea6213f9c",
+      "sha256": "439a6f47a72c97624cef2a2f68224ae2c50a6e75eb42562c4147fb5ea6213f9c",
+      "bytes": 180923
+    },
+    {
+      "path": "assets/originals/capture-repeat-browse-from-date.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-repeat-browse-from-date.png",
+      "source_sha256": "fe6aae6620767f4abde6be93c29100239f0641e15b90121d9f140d708a397188",
+      "sha256": "fe6aae6620767f4abde6be93c29100239f0641e15b90121d9f140d708a397188",
+      "bytes": 241187
+    },
+    {
+      "path": "assets/originals/capture-repeat-cancel-scope.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-repeat-cancel-scope.png",
+      "source_sha256": "bb50d7c1992b9d0b316b98c6c68cc6f7953cb60304d1c80c2f6448b346b86875",
+      "sha256": "bb50d7c1992b9d0b316b98c6c68cc6f7953cb60304d1c80c2f6448b346b86875",
+      "bytes": 381963
+    },
+    {
+      "path": "assets/originals/capture-repeat-edit-future-scope.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-repeat-edit-future-scope.png",
+      "source_sha256": "f0acaf3f70951f7f55d9532eae2efda2cd4c146b6aee5767d544703d68bf7c49",
+      "sha256": "f0acaf3f70951f7f55d9532eae2efda2cd4c146b6aee5767d544703d68bf7c49",
+      "bytes": 227452
+    },
+    {
+      "path": "assets/originals/capture-repeat-edit-this-only.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-repeat-edit-this-only.png",
+      "source_sha256": "4a57ae7477221adce37ea6da5d09b6cba11030cf4c3ab8b8ad1705eef5cc2b4e",
+      "sha256": "4a57ae7477221adce37ea6da5d09b6cba11030cf4c3ab8b8ad1705eef5cc2b4e",
+      "bytes": 225175
+    },
+    {
+      "path": "assets/originals/capture-repeat-occurrence-detail.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-repeat-occurrence-detail.png",
+      "source_sha256": "8d9804c79ff281136e226ec4294e53e9ae790cca46114e3e8819dc446cccafef",
+      "sha256": "8d9804c79ff281136e226ec4294e53e9ae790cca46114e3e8819dc446cccafef",
+      "bytes": 258971
+    },
+    {
+      "path": "assets/originals/capture-repeat-plans-list.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-repeat-plans-list.png",
+      "source_sha256": "927d7b94cc34baec332437c88f1df2cf36b29a801f54d0219bd8be28b0ce0324",
+      "sha256": "927d7b94cc34baec332437c88f1df2cf36b29a801f54d0219bd8be28b0ce0324",
+      "bytes": 758656
+    },
+    {
+      "path": "assets/originals/capture-restore-500-choose.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-restore-500-choose.png",
+      "source_sha256": "7e3039d411d06694015e85396417b27a3bc8b987898cbbc83d49381e5095de8e",
+      "sha256": "7e3039d411d06694015e85396417b27a3bc8b987898cbbc83d49381e5095de8e",
+      "bytes": 398852
+    },
+    {
+      "path": "assets/originals/capture-restore-500-confirm.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-restore-500-confirm.png",
+      "source_sha256": "546e3ae9c6011992922807622e4a8cfe62b4bf9ca93fbf363e6e5da43c5efa1b",
+      "sha256": "546e3ae9c6011992922807622e4a8cfe62b4bf9ca93fbf363e6e5da43c5efa1b",
+      "bytes": 961905
+    },
+    {
+      "path": "assets/originals/capture-safety-export-warning.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-safety-export-warning.png",
+      "source_sha256": "edef3dc36c6e68bb66a4897e0bf36e208ae738c6a4f334c0a92ff99ff69b37f0",
+      "sha256": "edef3dc36c6e68bb66a4897e0bf36e208ae738c6a4f334c0a92ff99ff69b37f0",
+      "bytes": 347424
+    },
+    {
+      "path": "assets/originals/capture-safety-list-after-restore.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-safety-list-after-restore.png",
+      "source_sha256": "36f063347c32ac212f69ebf9a8d2471cf6eb59f5ee01f5678b654ecd7c5975b0",
+      "sha256": "36f063347c32ac212f69ebf9a8d2471cf6eb59f5ee01f5678b654ecd7c5975b0",
+      "bytes": 238975
+    },
+    {
+      "path": "assets/originals/capture-safety-restore-confirm.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-safety-restore-confirm.png",
+      "source_sha256": "b936596a20ceb94f905d7095bfbc8372740c8a08d8bb7d8ef3e199cac3d03211",
+      "sha256": "b936596a20ceb94f905d7095bfbc8372740c8a08d8bb7d8ef3e199cac3d03211",
+      "bytes": 403302
+    },
+    {
+      "path": "assets/originals/capture-status-correct-completed.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-status-correct-completed.png",
+      "source_sha256": "0fe4ef16f8d8d19234e5a7d4dcaba10cd7dc4d524ce19bc3b14facadd98fbcc8",
+      "sha256": "0fe4ef16f8d8d19234e5a7d4dcaba10cd7dc4d524ce19bc3b14facadd98fbcc8",
+      "bytes": 826247
+    },
+    {
+      "path": "assets/originals/capture-system-calendar-event-details.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-system-calendar-event-details.png",
+      "source_sha256": "e7795cfa0475d0c8eb11d6f5f0e0b5faab3a8f5a9f268b5c9d82d37947dce5aa",
+      "sha256": "e7795cfa0475d0c8eb11d6f5f0e0b5faab3a8f5a9f268b5c9d82d37947dce5aa",
+      "bytes": 201180
+    },
+    {
+      "path": "assets/originals/capture-unavailable-remove-confirm.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/capture-unavailable-remove-confirm.png",
+      "source_sha256": "eb67b1031fe716a81c97173efbbd5c726d00f687cf54bdaa2344bb71d6c8b011",
+      "sha256": "eb67b1031fe716a81c97173efbbd5c726d00f687cf54bdaa2344bb71d6c8b011",
+      "bytes": 269357
+    },
+    {
+      "path": "assets/originals/date-picker.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/date-picker.png",
+      "source_sha256": "c7a57180619042ea8ec257bbdb8038b65e5d029842ec0b13951385a55a222454",
+      "sha256": "c7a57180619042ea8ec257bbdb8038b65e5d029842ec0b13951385a55a222454",
+      "bytes": 371825
+    },
+    {
+      "path": "assets/originals/datetime-picker.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/datetime-picker.png",
+      "source_sha256": "e7aee8c608565afd206affdf5699440773a95f770c49ca39cefd557e3f38a5fc",
+      "sha256": "e7aee8c608565afd206affdf5699440773a95f770c49ca39cefd557e3f38a5fc",
+      "bytes": 483115
+    },
+    {
+      "path": "assets/originals/detail-ready.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/detail-ready.png",
+      "source_sha256": "69ad563a1ed2e452df43f7814adbc60c45d50e60e1377905d4fe3298931c3f17",
+      "sha256": "69ad563a1ed2e452df43f7814adbc60c45d50e60e1377905d4fe3298931c3f17",
+      "bytes": 1560753
+    },
+    {
+      "path": "assets/originals/edit-times.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/edit-times.png",
+      "source_sha256": "b5d646dcad2813756f66e4a42729d82807f3744952ad46c36f77b6785b08b867",
+      "sha256": "b5d646dcad2813756f66e4a42729d82807f3744952ad46c36f77b6785b08b867",
+      "bytes": 296710
+    },
+    {
+      "path": "assets/originals/free18-first-open.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/free18-first-open.png",
+      "source_sha256": "60dbfc2ed837a1f1bb61be64e805dc5e2a1c95b2be02f4b415276043e4ff4e69",
+      "sha256": "60dbfc2ed837a1f1bb61be64e805dc5e2a1c95b2be02f4b415276043e4ff4e69",
+      "bytes": 911837
+    },
+    {
+      "path": "assets/originals/my.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/my.png",
+      "source_sha256": "c17273921db108daa880e9072927b2f227d1a223b70629142d1b1d20d54d3181",
+      "sha256": "c17273921db108daa880e9072927b2f227d1a223b70629142d1b1d20d54d3181",
+      "bytes": 1023980
+    },
+    {
+      "path": "assets/originals/new-appointment.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/new-appointment.png",
+      "source_sha256": "6673d93a47ba3f9488cc08516d02e9068a8ae4e7fc177432dfab0d0026848a8a",
+      "sha256": "6673d93a47ba3f9488cc08516d02e9068a8ae4e7fc177432dfab0d0026848a8a",
+      "bytes": 550419
+    },
+    {
+      "path": "assets/originals/order-services.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/order-services.png",
+      "source_sha256": "8e1d8f9b512e79f543db4402fa073db969536faee416967b003a7b02e6d98c53",
+      "sha256": "8e1d8f9b512e79f543db4402fa073db969536faee416967b003a7b02e6d98c53",
+      "bytes": 320069
+    },
+    {
+      "path": "assets/originals/permission.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/permission.png",
+      "source_sha256": "0db2ab115faaa85d3914200f243056d245e8971577641a92dfa9aaa94c5cb6e8",
+      "sha256": "0db2ab115faaa85d3914200f243056d245e8971577641a92dfa9aaa94c5cb6e8",
+      "bytes": 290890
+    },
+    {
+      "path": "assets/originals/pricing-form.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/pricing-form.png",
+      "source_sha256": "12641118b9668f595358b0284e7805e8a688f1cec223a82850047ee8c3ae3027",
+      "sha256": "12641118b9668f595358b0284e7805e8a688f1cec223a82850047ee8c3ae3027",
+      "bytes": 238719
+    },
+    {
+      "path": "assets/originals/receipt-form.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/receipt-form.png",
+      "source_sha256": "cdb721bba5c93bbc00018adcc0d35c85986319df4338c132f5ae26679b32748b",
+      "sha256": "cdb721bba5c93bbc00018adcc0d35c85986319df4338c132f5ae26679b32748b",
+      "bytes": 201887
+    },
+    {
+      "path": "assets/originals/receipt-result.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/receipt-result.png",
+      "source_sha256": "1f8a8f4c943863ad5a03e8cbbd9c9852cb247afb2c2ce50c84f46da6de68cd2a",
+      "sha256": "1f8a8f4c943863ad5a03e8cbbd9c9852cb247afb2c2ce50c84f46da6de68cd2a",
+      "bytes": 326380
+    },
+    {
+      "path": "assets/originals/refund-result.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/refund-result.png",
+      "source_sha256": "ca24cb3baafc04903bc8661b483bbe63d36745870e446cf1d3411fd8d39f3d89",
+      "sha256": "ca24cb3baafc04903bc8661b483bbe63d36745870e446cf1d3411fd8d39f3d89",
+      "bytes": 318472
+    },
+    {
+      "path": "assets/originals/reminders-editor.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/reminders-editor.png",
+      "source_sha256": "69b909de673be314e9d944e0cd20c4f893e1b858359d6a9756a7d87ba8918d17",
+      "sha256": "69b909de673be314e9d944e0cd20c4f893e1b858359d6a9756a7d87ba8918d17",
+      "bytes": 340624
+    },
+    {
+      "path": "assets/originals/reversal-dialog.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/reversal-dialog.png",
+      "source_sha256": "4f3dde915d0cdc9334af87df3e84ebb312e04661f74b8407b3b8b83c53818dca",
+      "sha256": "4f3dde915d0cdc9334af87df3e84ebb312e04661f74b8407b3b8b83c53818dca",
+      "bytes": 465150
+    },
+    {
+      "path": "assets/originals/reversal-result.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/reversal-result.png",
+      "source_sha256": "cdec8ff1329b53636fca125f9952747f4630992ee38da3bf6004e39c1197050f",
+      "sha256": "cdec8ff1329b53636fca125f9952747f4630992ee38da3bf6004e39c1197050f",
+      "bytes": 323856
+    },
+    {
+      "path": "assets/originals/same-order.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/same-order.png",
+      "source_sha256": "97d4c5a6da10f329b79096e2c5f011ad49448a6216b4907e528c0c0d81efb4f7",
+      "sha256": "97d4c5a6da10f329b79096e2c5f011ad49448a6216b4907e528c0c0d81efb4f7",
+      "bytes": 1025103
+    },
+    {
+      "path": "assets/originals/saved-pending.jpg",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/saved-pending.jpg",
+      "source_sha256": "11a357fa975ce36a7417ec7946f1a5ef0f10f93ab325066a5347d63b3dd43530",
+      "sha256": "11a357fa975ce36a7417ec7946f1a5ef0f10f93ab325066a5347d63b3dd43530",
+      "bytes": 1468357
+    },
+    {
+      "path": "assets/originals/settings-data.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/settings-data.png",
+      "source_sha256": "3c94abb19106d81676f952e7afdd8735486d3beea0264dcf96593de8f75719b9",
+      "sha256": "3c94abb19106d81676f952e7afdd8735486d3beea0264dcf96593de8f75719b9",
+      "bytes": 989439
+    },
+    {
+      "path": "assets/originals/task-form.png",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/assets/originals/task-form.png",
+      "source_sha256": "b11c7514a9d48be256d78c9bbfd88235eef58dae184d7b823b02b77eb77cdfa5",
+      "sha256": "b11c7514a9d48be256d78c9bbfd88235eef58dae184d7b823b02b77eb77cdfa5",
+      "bytes": 500810
+    },
+    {
+      "path": "content.js",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/content.js",
+      "source_sha256": "61e3e4311567a6eebf2fdf3d1db719cc86ea802aecdd3806ce3d8e6afbff09bd",
+      "sha256": "61e3e4311567a6eebf2fdf3d1db719cc86ea802aecdd3806ce3d8e6afbff09bd",
+      "bytes": 169062
+    },
+    {
+      "path": "index.html",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/index.html",
+      "source_sha256": "98fe8738f787ca5ec86806aa874e15d44814fb94a3c96a823974ae90e457e134",
+      "replace": [
+        [
+          "https://nanzhijian-support-2026.linghao457.chatgpt.site/",
+          "support/"
+        ]
+      ],
+      "sha256": "b0aef09a1cc09d0ebf1cb080a70e8c43c9bcf041903a696923b8ddcb2591fe99",
+      "bytes": 2000
+    },
+    {
+      "path": "style.css",
+      "url": "https://nanzhijian-guide-2026.linghao457.chatgpt.site/style.css",
+      "source_sha256": "a35910069a9272c6f0a6256af4c1b951b8d9d2d533f2cf1d6e0e5e807ba65699",
+      "sha256": "a35910069a9272c6f0a6256af4c1b951b8d9d2d533f2cf1d6e0e5e807ba65699",
+      "bytes": 23810
+    },
+    {
+      "path": "support/404.html",
+      "url": "https://nanzhijian-support-2026.linghao457.chatgpt.site/404.html",
+      "source_sha256": "ec1cc7a7ce36c6f61c89c3d99bfe9d54b6e1366b228f38b79067ef8d8bcead81",
+      "sha256": "ec1cc7a7ce36c6f61c89c3d99bfe9d54b6e1366b228f38b79067ef8d8bcead81",
+      "bytes": 922
+    },
+    {
+      "path": "support/index.html",
+      "url": "https://nanzhijian-support-2026.linghao457.chatgpt.site/index.html",
+      "source_sha256": "ee25b90a19e3c7d18fc154711e5b45fe7f43f80dc7849d0ced69bcb179e17e05",
+      "replace": [
+        [
+          "https://nanzhijian-guide-2026.linghao457.chatgpt.site/",
+          "../"
+        ]
+      ],
+      "sha256": "716eeabca5bfe117fe80f76315de7cfedff66d64f312745b23240227883c99a8",
+      "bytes": 5153
+    },
+    {
+      "path": "support/privacy.html",
+      "url": "https://nanzhijian-support-2026.linghao457.chatgpt.site/privacy.html",
+      "source_sha256": "abdb2343050eae269e9293f2df3a10ddd63cc7b26afca08f60ad4ec9af57ad07",
+      "sha256": "abdb2343050eae269e9293f2df3a10ddd63cc7b26afca08f60ad4ec9af57ad07",
+      "bytes": 5530
+    },
+    {
+      "path": "support/style.css",
+      "url": "https://nanzhijian-support-2026.linghao457.chatgpt.site/style.css",
+      "source_sha256": "7868f910584771b077f4c1727ae6f7b3ad4fd31fce39eac9e203f0f756192152",
+      "sha256": "7868f910584771b077f4c1727ae6f7b3ad4fd31fce39eac9e203f0f756192152",
+      "bytes": 3807
+    },
+    {
+      "path": ".nojekyll",
+      "content": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}
